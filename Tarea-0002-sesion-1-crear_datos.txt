@@ -1,0 +1,14 @@
+-- Insertar los registros de comidas
+INSERT INTO Comidas (platillo) VALUES 
+  ('arroz chaufa'),
+  ('arroz verde'),
+  ('caldo blanco'),
+  ('pollo frito'),
+  ('Tallarin verde');
+-- Insertar los registros de lugares de viaje
+INSERT INTO `Lugares de viaje` (lugar) VALUES 
+  ('arequipa'),
+  ('cuzco'),
+  ('juliaca'),
+  ('mollendo'),
+  ('Cabanaconde');
