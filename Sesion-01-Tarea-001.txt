@@ -1,0 +1,28 @@
+CREATE DATABASE 
+  `Jesus Chalco` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- Seleccionar la base de datos
+USE `Jesus Chalco`;
+-- Crear la primera tabla para las comidas
+CREATE TABLE Comidas (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  platillo VARCHAR(100) NOT NULL
+);
+-- Insertar los registros de comidas
+INSERT INTO Comidas (platillo) VALUES 
+  ('arroz chaufa'),
+  ('arroz verde'),
+  ('caldo blanco'),
+  ('pollo frito'),
+  ('Tallarin verde');
+CREATE TABLE `Lugares de viaje` (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  lugar VARCHAR(100) NOT NULL
+);
+-- Insertar los registros de lugares de viaje
+INSERT INTO `Lugares de viaje` (lugar) VALUES 
+  ('arequipa'),
+  ('cuzco'),
+  ('juliaca'),
+  ('mollendo'),
+  ('Cabanaconde');
